@@ -241,7 +241,7 @@ function initializeCanvas() {
         scrollTrigger: {
             scrub: .8,
             trigger: "#home",
-            start: "bottom -200%",
+            start: "bottom 20%",
             // markers: true
         }
     })
