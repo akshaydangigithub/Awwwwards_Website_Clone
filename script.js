@@ -237,7 +237,7 @@ function initializeCanvas() {
     }
 
     gsap.to("#home canvas", {
-        // scale: .8,
+        scale: .8,
         scrollTrigger: {
             scrub: .8,
             trigger: "#home",
