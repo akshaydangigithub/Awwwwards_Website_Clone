@@ -1,0 +1,450 @@
+@font-face {
+    font-family: play fair;
+    src: url(./fonts/PlayfairDisplay-Regular.9647c7fa.woff2);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* =========Navigation============= */
+
+#nav {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #fffaf0;
+    z-index: 9;
+    display: none;
+}
+
+#nav>img {
+    height: 7.5%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+#nav-left {
+    position: relative;
+    height: 100%;
+    width: 50%;
+
+}
+
+#nav-left>p {
+    font-family: "gilroy";
+    position: absolute;
+    top: 90%;
+    left: 20%;
+}
+
+#nav-left-content {
+
+    position: absolute;
+    margin-left: 18%;
+    top: 25%;
+}
+
+#nav-left-content>p {
+    font-family: "gilroy";
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+#nav-left-content>h2 {
+    font-size: 5.5vw;
+    font-weight: 100;
+    width: 70%;
+    font-family: play fair;
+}
+
+
+#nav-right {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+#nav-right-content {
+    position: absolute;
+    top: 25%;
+
+    margin-left: 7%;
+}
+
+#nav-right-icons {
+
+    position: absolute;
+    top: 90%;
+    right: 20%;
+}
+
+#nav-right-icons>i {
+    font-size: 30px;
+    margin-right: 35px;
+    color: #e3869c;
+    cursor: pointer;
+}
+
+#nav-right-content>p {
+    font-family: "gilroy";
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+#nav-right-content>h2 {
+    font-size: 3.5vw;
+    line-height: 1;
+    font-weight: 100;
+    font-weight: 100;
+    width: 90%;
+    font-family: play fair;
+}
+
+#nav-right>p {
+    font-family: "gilroy";
+    font-size: 20px;
+    position: absolute;
+    top: 63%;
+    color: #e3869c;
+    left: 8%;
+}
+
+#nav-close {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    height: 13px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+#line-1 {
+    position: relative;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    transition: all 1s ease;
+}
+
+
+#line-2 {
+    position: relative;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    transition: all 1s ease;
+}
+
+
+#overlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 9999999999;
+    width: 100%;
+    height: 100vh;
+}
+
+#overlay>img {
+    height: 7.5%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+#overlay h1 {
+    font-size: 50px;
+    position: absolute;
+    font-family: "play fair";
+    font-weight: 100;
+    color: white;
+    top: 45%;
+    right: 5%;
+    text-align: right;
+}
+
+#overlay h5 {
+    position: absolute;
+    color: white;
+    top: 53%;
+    right: 11%;
+    font-size: 27px;
+    text-align: center;
+    font-family: "play fair";
+    font-weight: 100;
+}
+
+#overlay #second {
+    position: absolute;
+    color: white;
+    top: 57%;
+    right: 13%;
+    font-size: 26px;
+    text-align: center;
+    font-family: "play fair";
+    font-weight: 100;
+}
+
+
+#main {
+    height: 200vh;
+    width: 100%;
+}
+
+#home {
+    height: 100vh;
+    width: 100%;
+    background-color: #fffaf0;
+}
+
+canvas {
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* ==========Page-2============ */
+
+
+#page2 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fffaf0;
+    padding: 10% 0%;
+}
+
+#page2 img {
+    position: absolute;
+    width: 60%;
+    top: 70%;
+    z-index: 9999;
+    left: 20%;
+}
+
+#page2>h1 {
+    font-size: 7vw;
+    text-align: center;
+    font-family: "play fair";
+    font-weight: 100;
+    line-height: 1;
+}
+
+#page-2-ani {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page-2-ani>p {
+    font-size: 25px;
+    margin: 224px 0px 48px;
+}
+
+#page-2-ani>p span {
+    font-family: "gilroy";
+    margin-left: 6px;
+}
+
+#ak {
+
+    width: 78%;
+}
+
+
+#ak>h2 {
+    font-size: 4.5vw;
+    line-height: 1;
+    text-align: center;
+    font-weight: 100;
+}
+
+#page-2-ani span {
+    position: relative;
+    margin-left: 15px;
+    font-family: "play fair";
+    display: inline-block;
+}
+
+#page-2-second-ani {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page-2-second-ani>p {
+    font-size: 25px;
+    margin: 224px 0px 48px;
+}
+
+#page-2-second-ani>p span {
+    font-family: "gilroy";
+    margin-left: 6px;
+}
+
+#ak2 {
+    width: 70%;
+}
+
+
+#ak2>h2 {
+    font-size: 4.5vw;
+    line-height: 1;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 40%;
+}
+
+#page-2-second-ani span {
+    position: relative;
+    margin-left: 15px;
+    font-family: "play fair";
+    display: inline-block;
+}
+
+
+/* ==========Page-3============ */
+
+#page3 {
+    display: flex;
+    position: relative;
+    height: 63vh;
+    width: 100%;
+
+}
+
+#page3-left {
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+}
+
+#page3-left::-webkit-scrollbar {
+    display: none;
+}
+
+.page3-left-content {
+    margin-top: 20%;
+}
+
+.page3-left-content-3rd {
+    margin-bottom: 20%;
+}
+
+.page3-left-content h3 {
+    font-size: 1.7vw;
+    font-weight: 100;
+    margin-left: 6.2%;
+}
+
+.page3-left-content h1 {
+    font-family: play fair;
+    width: 45%;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-left: 9%;
+}
+
+#page3-right {
+    height: 100%;
+
+}
+
+#page3-right video {
+    height: 100%;
+    position: absolute;
+    top: -24.8%;
+    right: 10.5%;
+}
+
+
+/* ==========Page-4============ */
+
+
+#page4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+
+#page4-content {
+    position: relative;
+    height: 70%;
+    width: 90%;
+}
+
+.photos {
+    position: relative;
+    display: inline-block;
+    height: 150px;
+    width: 215px;
+    margin-left: 30px;
+}
+
+.photos>img {
+    height: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* ==========Page-5============ */
+
+#page5 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+}
+
+#page5 span {
+    position: relative;
+    margin-left: 15px;
+    font-family: "play fair";
+    display: inline-block;
+}
+
+#page5 h1 {
+    font-family: play fair;
+    font-size: 4.5vw;
+    font-weight: 100;
+    width: 30%;
+    text-align: center;
+    line-height: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#btm-img {
+    height: 90%;
+    width: 100%;
+    background-image: url(https://neverland.agency/assets/0001.79b3f4bd.webp);
+    background-size: cover;
+    background-position: -10%;
+    position: absolute;
+    top: 20%;
+}
